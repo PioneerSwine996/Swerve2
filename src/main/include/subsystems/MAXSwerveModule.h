@@ -22,8 +22,7 @@ class MAXSwerveModule {
    * MAXSwerve Module built with NEOs, SPARKS MAX, and a Through Bore
    * Encoder.
    */
-  MAXSwerveModule(int driveCANId, int turningCANId,
-                  double chassisAngularOffset);
+  MAXSwerveModule(int driveCANId, int turningCANId, double chassisAngularOffset);
 
   /**
    * Returns the current state of the module.
